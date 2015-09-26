@@ -15,6 +15,31 @@ body * {
   font-size: 72px;
 }
 
+.generate {
+  width: 300px;
+  cursor: pointer;
+  padding: 20px;
+  outline: none;
+  background-color: #928F8F;
+  font-size: 36px;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #928F8F;
+  box-shadow: 4px 6px 0px #777;
+}
+
+.generate:hover {
+  background-color: #ADADAD;
+}
+
+.generate:active {
+  position: relative;
+  top: 3px;
+  left: 2px;
+  box-shadow: 2px 3px 0px #777;
+}
+
 .equation {
   font-size: 48px;
 }
