@@ -1,0 +1,28 @@
+body {
+  font-family: 'Futura', sans-serif;
+  background-color: yellow;
+  margin: 20px auto;
+  width: 900px;
+}
+
+body * {
+  display: table;
+  margin: 50px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 72px;
+}
+
+.equation {
+  font-size: 48px;
+}
+
+.equation div {
+  display: inline-block;
+}
+
+.title-bottom {
+  font-size: 48px;
+}
