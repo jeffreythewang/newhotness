@@ -1,0 +1,30 @@
+{
+  "name": "newhotness",
+  "version": "1.0.0",
+  "description": "stacks on stacks on stacks ",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./js/scripts.js > ./js/bundle.js",
+    "start": "npm run build && python -m SimpleHTTPServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreythewang/newhotness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreythewang/newhotness/issues"
+  },
+  "homepage": "https://github.com/jeffreythewang/newhotness#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}
