@@ -7,7 +7,7 @@ body {
 
 body * {
   display: table;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .title {
@@ -41,13 +41,22 @@ body * {
 }
 
 .equation {
-  font-size: 48px;
+  display: none;
+  font-size: 32px;
+  margin-bottom: 0px;
 }
 
 .equation div {
   display: inline-block;
 }
 
+.stack-row {
+  display: none;
+  font-size: 48px;
+  margin-top: 0px;
+}
+
 .title-bottom {
+  display: none;
   font-size: 48px;
 }
